@@ -7,7 +7,7 @@
 - Spaces in Template Expressions
 
   ```cpp
-  vector<list<int> > //ok in each C++ version
+  vector<list<int> > //ok in each C++ version 
   vector<list<int>> // before c++ 11 error error: ‘>>’ should be ‘> >’ within a nested template argument list,c++11后可以正常通过
   ```
 
